@@ -88,3 +88,8 @@ Part of my preparation alongside my Master's thesis on recycling waste printed c
 ## License
 
 MIT (see `LICENSE`). Thermodynamic values calculated with FactSage Education 8.4 (FactPS database, © Thermfact/CRCT and GTT-Technologies).
+## Part 2: Cu–Fe–O equilibrium (FactSage Equilib)
+
+An Equilib calculation of 1 mol Cu + 1 mol Fe + 0–1.5 mol O₂ at 1200 °C checks the Ellingham prediction. Iron oxidises first (Fe → FeO → Fe₃O₄). Copper stays fully metallic until all the iron is magnetite, and is then lost as the mixed oxide CuFeO₂, which a single-metal Ellingham diagram cannot show.
+
+→ Details, figure and code: [`equilib_CuFeO/`](equilib_CuFeO/)
